@@ -17,7 +17,7 @@ import java.util.Map.Entry;
 import java.util.TreeMap;
 
 /**
- * @author nikhillo
+ * @author u2
  * Class that emulates reading data back from a written index
  */
 public class IndexReader {
@@ -54,7 +54,7 @@ public class IndexReader {
 			BufferedReader rdr = new BufferedReader(new InputStreamReader(new FileInputStream(indexDir+File.separator+filename), "UTF-8"));
 			loadIndex(rdr);
 			rdr =  new BufferedReader(new InputStreamReader(new FileInputStream(indexDir+File.separator+"idx.props"), "UTF-8"));
-			String line = rdr.readLine();
+						String line = rdr.readLine();
 			rdr.close();
 			line = line.substring(line.indexOf('=')+1);
 			N = Integer.parseInt(line);
