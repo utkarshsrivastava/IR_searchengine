@@ -11,7 +11,7 @@ import java.util.NoSuchElementException;
 import edu.buffalo.cse.irf14.analysis.TokenType.TYPENAMES;
 
 /**
- * @author nikhillo
+ * @author u2
  * Class that represents a stream of Tokens. All {@link Analyzer} and
  * {@link TokenFilter} instances operate on this to implement their
  * behavior
