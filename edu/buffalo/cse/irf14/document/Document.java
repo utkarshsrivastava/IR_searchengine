@@ -6,11 +6,10 @@ package edu.buffalo.cse.irf14.document;
 import java.util.HashMap;
 
 /**
- * @author nikhillo
+ * @author u2
  * Wrapper class that holds {@link FieldNames} to value mapping
  */
 public class Document {
-	//Sample implementation - you can change this if you like
 	private HashMap<FieldNames, String[]> map;
 	
 	/**
@@ -38,3 +37,4 @@ public class Document {
 		return map.get(fn);
 	}
 }
+			
